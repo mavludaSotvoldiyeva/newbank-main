@@ -2,7 +2,7 @@
 """Django's command-line utility for administrative tasks."""
 import os
 import sys
-
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 def main():
     """Run administrative tasks."""
